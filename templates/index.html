@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="static/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="static\styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav_logo">Fitsum</a>
+        <div class="nav_menu" id="nav_menu">
+            <ul class="nav_list grid">
+                <li class="nav_item">
+                    <a href="#home" class="nav_link active-link">
+                        <i class="uil uil-estate nav_icon"></i>Home
+
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="#about" class="nav_link">
+                        <i class="uil uil-user nav_icon"></i>About
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="#skills" class="nav_link">
+                        <i class="uil uil-file nav_icon"></i>Skills
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="#services" class="nav_link">
+                        <i class="uil uil-bag nav_icon"></i>Services
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="#portfolio" class="nav_link">
+                        <i class="uil uil-scenery nav_icon"></i>Portfolio
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contact" class="nav_link">
+                        <i class="uil uil-message nav_icon"></i>Contact Me
+                    </a>
+                </li>
+            </ul>
+            <i class="uil uil-times nav_close" id="nav_close"></i>
+        </div>
+        <div class="nav_btns">
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+            <div class="nav_toggle" id="nav_toggle">
+                <i class="uil uil-apps"></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home_container container grid">
+            <div class="home_content  grid">
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                    <a href="https://dribbble.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-dribbble"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://mail.google.com/" target="_blank" class="home_social-icon">
+                        <i class="uil uil-envelope-check"></i>
+                    </a>
+                </div>
+                <div class="home_img">
+                    <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            <image class="home_blob-img" x='12' y="18" xlink:href="static/Fitsum.png"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="home_data">
+                    <h1 class="home_title">Hi I am Fitsum</h1>
+                    <h3 class="home_subtitle">Graphics Designer</h3>
+                    <p class="home_description">My name is Fistum and I am a self-thought graphic designer.
+                        I love to be challenged by new ideas, so feel free to reach out with any questions or comments
+                        you might have.</p>
+                    <a href="#contact" class="button button--flex">
+                        Contact Me
+                        <i class="uil uil-message button_icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="home_scroll">
+                <a href="#about" class="home_scroll-button button--flex">
+                    <i class="uil uil-mouse home_scroll-mouse"></i>
+                    <span class="home_scroll-name">Scroll down</span>
+                    <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">My introduction</span>
+        <div class="about_container container grid">
+            <img src="static/fs.jpg" alt="" class="about_img">
+            <div class="about_data">
+                <p class="about_description">I am a self taught graphic designer. I have been doing graphic
+                    design for the past four years as a freelancer.This portfolio is a collection of four years worth of
+                    design work
+                    including branding, Logo design, banner and poster design,
+                    T-shirt design, business card design, album/cover art design,
+                    social media post design, magazine layout design and more.
+
+                </p>
+                <div class="about_info">
+                    <div>
+                        <span class="about_info-title">5+</span>
+                        <span class="about_info-name">Years <br> Experience</span>
+                    </div>
+                    <div>
+                        <span class="about_info-title">25+</span>
+                        <span class="about_info-name">Completed <br> Project</span>
+                    </div>
+                    <div>
+                        <span class="about_info-title"></span>
+                        <span class="about_info-name"> <br> </span>
+                    </div>
+
+                </div>
+                <div class="about_buttons">
+                    <a href="static/My Portfolio abc.pdf" download class="button button--flex">
+                        Download CV<i class="uil uil-download-alt button_icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">My technical level</span>
+        <div class="skills_container container grid">
+            <div>
+                <div class="skills_content skills_open ">
+                    <div class="skills_header">
+                        <i class="uil uil-brackets-curly skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Video Editor</h1>
+                            <span class="skills_subtitle">More than 4 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Filmora</h3>
+                                <span class="skills_number">100%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_html" style="width:90%;"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Adobe Primiere Rush</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_css" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Adobe AfterEffect</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_js" style="width: 90%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                <div class="skills_content skills_close">-->
+                <!--                    <div class="skills_header">-->
+                <!--                        <i class="uil uil-server-network skills_icon "></i>-->
+                <!--                        <div>-->
+                <!--                            <h1 class="skills_title">BackEnd </h1>-->
+                <!--                            <span class="skills_subtitle">More than 2 years</span>-->
+                <!--                        </div>-->
+                <!--                        <i class="uil uil-angle-down skills_arrow"></i>-->
+                <!--                    </div>-->
+                <!--                    <div class="skills_list grid">-->
+                <!--                        <div class="skills_data">-->
+                <!--                            <div class="skills_titles">-->
+                <!--                                <h3 class="skills_name">PHP</h3>-->
+                <!--                                <span class="skills_number">90%</span>-->
+                <!--                            </div>-->
+                <!--                            <div class="skills_bar">-->
+                <!--                                <span class="skills_percentage skills_php" style="width: 90%;"></span>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                        <div class="skills_data">-->
+                <!--                            <div class="skills_titles">-->
+                <!--                                <h3 class="skills_name">Node Js</h3>-->
+                <!--                                <span class="skills_number">80%</span>-->
+                <!--                            </div>-->
+                <!--                            <div class="skills_bar">-->
+                <!--                                <span class="skills_percentage skills_Node" style="width: 80%;"></span>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                        <div class="skills_data">-->
+                <!--                            <div class="skills_titles">-->
+                <!--                                <h3 class="skills_name">FireBase</h3>-->
+                <!--                                <span class="skills_number">90%</span>-->
+                <!--                            </div>-->
+                <!--                            <div class="skills_bar">-->
+                <!--                                <span class="skills_percentage skills_firebase" style="width: 90%;"></span>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+
+                <!--                        <div class="skills_data">-->
+                <!--                            <div class="skills_titles">-->
+                <!--                                <h3 class="skills_name">Python</h3>-->
+                <!--                                <span class="skills_number">90%</span>-->
+                <!--                            </div>-->
+                <!--                            <div class="skills_bar">-->
+                <!--                                <span class="skills_percentage skills_python" style="width: 90%;"></span>-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>-->
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-swatchbook skills_icon "></i>
+                        <div>
+                            <h1 class="skills_title">Graphics Designer</h1>
+                            <span class="skills_subtitle">More than 5 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills_arrow"></i>
+                    </div>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Figma</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_figma" style="width: 90%;"></span>
+                            </div>
+                        </div>
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Adobe Illustrator</h3>
+                                <span class="skills_number">100%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_sketch" style="width: 80%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Adobe PhotoShop</h3>
+                                <span class="skills_number">100%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_photoshop"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Indesign</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_illustrator" style="width: 90%;"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Adobe Light room</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_illustrator" style="width: 90%;"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section">
+        <h2 class="section_title">Qualification</h2>
+        <span class="section_subtitle">My Personal Journey</span>
+        <div class="qualification_container  container">
+            <div class="qualification_tabs">
+                <div class="qualification_button  button--flex qualification_active" data-target='#education'>
+                    <i class="uil uil-graduation-cap qualification_icon"></i>
+                    Education
+                </div>
+                <div class="qualification_button  button--flex" data-target='#work'>
+                    <i class="uil uil-briefcase-alt qualification_icon"></i>
+                    Work
+                </div>
+            </div>
+            <div class="qualification_sections">
+                <div class="qualification_content qualification_active" data-content id="education">
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Mechanical Engineering</h3>
+                            <span class="qualification_subtitle">Wachamu University</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2017-2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+                    <div class="qualification_data">
+                        <div></div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Graphics Design</h3>
+                            <span class="qualification_subtitle">Self Taught</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018-2022
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="qualification_data">
+
+                        <div>
+                            <h3 class="qualification_title">Video Editing</h3>
+                            <span class="qualification_subtitle">Self Taught</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018-2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="qualification_content " data-content id="work">
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Debo Engineering</h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <div class="qualification_data">
+                        <div></div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification_title">Bertu Tesfa charitable organization </h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2021
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="qualification_data">
+
+                        <div>
+                            <h3 class="qualification_title">Hulentenawi (ሁለንተናዊ)</h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+                    <div class="qualification_data">
+                        <div></div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                        <div>
+
+                            <h3 class="qualification_title">Egre Menged</h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">Eastern Star Light</h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="qualification_data">
+                        <div></div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                        <div>
+
+                            <h3 class="qualification_title">Egre Menged</h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title"> Melkhik Podcast </h3>
+                            <span class="qualification_subtitle">Graphic Design</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2022
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+        <h2 class="section_title">Service</h2>
+        <span class="section_subtitle">What I offer</span>
+        <div class="services_container container grid">
+
+            <div class="services_content">
+                <div>
+                    <i class="uil uil-web-grid services_icon"></i>
+                    <h3 class="services_title">Graphics<br> Designer</h3>
+                </div>
+                <span class="button button--flex button--small button--link services_button">
+                View More <i class="uil uil-arrow-right button_icon"></i>
+                </span>
+                <div class="services_model">
+                    <div class="services_model-content">
+                        <h4 class="services_model-title">Graphics<br>Designer</h4>
+                        <i class="uil uil-times services_model-close"></i>
+                        <ul class="services_model-services grid">
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Company brand identity</p>
+                            </li>
+
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>User interfaces on apps and websites</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Books, magazines, newspapers, and other publications</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Advertisements and commercials</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Signage for stores, transportation, stadiums, and event spaces</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services_content">
+                <div>
+                    <i class="uil uil-arrow services_icon"></i>
+                    <h3 class="services_title">UI/UX<br> Designer</h3>
+                </div>
+                <span class="button button--flex button--small button--link services_button">
+                View More
+                <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+                <div class="services_model">
+                    <div class="services_model-content">
+                        <h4 class="services_model-title">UI/UX<br>Designer</h4>
+                        <i class="uil uil-times services_model-close"></i>
+                        <ul class="services_model-services grid">
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Create user-centered designs by understanding business requirements</p>
+                            </li>
+
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Creating user personas</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Determining the information architecture of a digital product</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Designing user flows and wireframes</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Creating prototypes</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Conducting user testing</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="services_content">
+                <div>
+                    <i class="uil uil-pen services_icon"></i>
+                    <h3 class="services_title">Video<br> Editing</h3>
+                </div>
+                <span class="button button--flex button--small button--link services_button">
+                View More
+                <i class="uil uil-arrow-right button_icon"></i>
+            </span>
+                <div class="services_model">
+                    <div class="services_model-content">
+                        <h4 class="services_model-title">Video<br>Editing</h4>
+                        <i class="uil uil-times services_model-close"></i>
+                        <ul class="services_model-services grid">
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Create Lyrical Music Videos</p>
+                            </li>
+
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Adjustment of picture and sound quality</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Addition and editing of graphics, animations, special effects, music, sound effects
+                                    and sound bites</p>
+                            </li>
+                            <li class="services_model-service">
+                                <i class="uil uil-check-circle services_model-icon"></i>
+                                <p>Reordering and fine tuning of content for the logical sequencing and smooth running
+                                    of the piece</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">Most Recent Works</span>
+        <div class="portfolio_container container swiper mySwiper">
+            <div class="swiper-wrapper">
+
+
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-04.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Melkhik Podcast </h3>
+                        <p class="portfolio_description">Melhik Podcast is a program that
+                            helps Christian youth grow holistically, spiritually,
+                            emotionally, physically and socially, and helps them
+                            to have a biblical foundation by exploring issues
+                            that are pressing among young people</p>
+                    </div>
+                </div>
+
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-05.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Melkhik Podcast-</h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-06.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Melkhik Podcast-</h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-07.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Eastern Star Light</h3>
+                        <p class="portfolio_description">Eastern star light is a company
+                            that provides light products, light point and light
+                            fitting. For example light bulb, panel, flood lights
+                            and crystal light for light shops, building owners
+                            and building contactors.</p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-08.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Eastern Star Light</h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-09.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Eastern Star Light</h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-10.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Egre Menged</h3>
+                        <p class="portfolio_description">supporting green transportation and promotion of
+                            non-motorized transport options, gathering a group of
+                            people that like to cycle on the weekend, providing a starting
+                            point and the opportunity to rent cycles and learn cycling,
+                            taking the lead for the route, exploring sites in the city like
+                            museums/parks/coffee places on the way, attending cycling
+                            events, giving suggestions and tips on cycling related issues:
+                            e.g. buying bicycles, making people feel the joy of exercising
+                            on a Sunday and exploring their city, creating a culture of
+                            safe cycling and environmental friendliness</p>
+
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-11.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Egre Menged</h3>
+                        <p class="portfolio_description"></p>
+
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-12.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Debo Engineering </h3>
+                        <p class="portfolio_description">Mainly it is Smart Agritech, in
+                            addition to it we also work on the following Smart
+                            Health, Smart Transport, Smart Tourism. An AI company that apply AI Technology to different
+                            sectors</p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-13.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Hulentenawi (ሁለንተናዊ)</h3>
+                        <p class="portfolio_description"> providing learning materials for youth through the mobile app.
+                            From the age
+                            of 12 to 19+</p>
+
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-14.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Hulentenawi (ሁለንተናዊ)</h3>
+                        <p class="portfolio_description">
+                        </p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-15.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Hulentenawi (ሁለንተናዊ) </h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-16.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Bertu Tesfa charitable organization </h3>
+                        <p class="portfolio_description">Resource Centre is a nonprofit organization that was
+                            established by groups of students in 2013,
+                            who was at the time attending FA International Academy. These students
+                            saved their monthly allowances, lunch money, and whatever income they had
+                            in order to support children that were unable to attend school due to many
+                            circumstances.</p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-17.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Bertu Tesfa charitable organization </h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-18.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Bertu Tesfa charitable organization </h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-19.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Bertu Tesfa charitable organization </h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+                <div class="portfolio_content grid swiper-slide">
+                    <img src="static/Portfolio-20.jpg" alt="" class="portfolio_img">
+                    <div class="portfolio_data">
+                        <h3 class="portfolio_title">Bertu Tesfa charitable organization </h3>
+                        <p class="portfolio_description"></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"><i class="uil uil-angle-right-b swiper-portfolio-icon"></i></div>
+
+            <div class="swiper-button-prev"><i class="uil uil-angle-left-b swiper-portfolio-icon"></i></div>
+            <br>
+            <br>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!--==================== PROJECT IN MIND ====================-->
+    <!-- <section class="project section">
+         <div class="project_bg">
+             <div class="project_container container grid">
+                 <div class="project_data">
+                     <h2 class="project_title">You have a new project</h2>
+                     <p class="project_description">After you fill out the form, a pool design specialists or an
+                         independent authorized River Pools dealer will reach out to you within the next business
+                         day.</p>
+                     <a href="#contact" class="button button--flex button--white">
+                         Contact Me
+                         <i class="uil uil-message project_icon button_icon"></i>
+                     </a>
+                 </div>
+                 <img src="static/project.png" alt="" class="project_img">
+             </div>
+         </div>
+
+     </section>-->
+
+    <!--==================== TESTIMONIAL ====================-->
+    <section class="testimonial section">
+        <h2 class="section_title">Testimonial</h2>
+        <span class="section_subtitle">My Client Saying</span>
+        <div class="testimonial_container container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            <img src="static/client1.jpg" alt="" class="testimonial_img">
+                            <div>
+                                <h3 class="testimonial_name">Amanuel Girma</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "Fitsum is a good graphics designer and has the ability to have a perfect fit with your
+                        requirements. He is not just a designer, he is also a good marketing adviser and always has
+                        advices that can make your business stand out. He is extremely patient and never puts pressure
+                        on you. He's always willing to go the extra mile. I highly recommend him!"
+                    </p>
+
+                </div>
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            <img src="static/testimonial2.jpg" alt="" class="testimonial_img">
+                            <div>
+                                <h3 class="testimonial_name">Alan Smith</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "I met Fistum on Upwork and I was contacted by Fitsum (the designer) after posting my project.
+                        He responded within 24
+                        hours, and I'm very happy with the final product! I will use him again for future projects."
+                    </p>
+
+                </div>
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            <!--                            /<img src="static/testimonial3.jpg" alt="" class="testimonial_img">-->
+                            <div>
+                                <h3 class="testimonial_name">Yohannes</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "fitsum was really helpful. I would recommend them to anyone who wants a good quality work for a decent price."
+                    </p>
+
+                </div>
+
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            /<img src="static/Portfolio-04.jpg" alt="" class="testimonial_img">
+                            <div>
+                                    <h3 class="testimonial_name">Milhek</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "fitsum was really helpful. I would recommend them to anyone who wants a good quality work for a decent price."
+                    </p>
+
+                </div>
+
+
+
+
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            /<img src="static/Portfolio-07.jpg" alt="" class="testimonial_img">
+                            <div>
+                                    <h3 class="testimonial_name">Eastern S.L</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "I have worked with fitsum for many years and he has always been a pleasure to work with. I count him as a friend and would definitely recommend his work."
+                    </p>
+
+                </div>
+
+
+
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            /<img src="static/Portfolio-10.jpg" alt="" class="testimonial_img">
+                            <div>
+                                    <h3 class="testimonial_name">Eger Menged</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                            "fitsum is a good graphics designer, he deliver on time and is more than willing to work with you if you have some changes to make. I will be using him again in the future."
+                    </p>
+
+                </div>
+
+
+
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            /<img src="static/Portfolio-12.jpg" alt="" class="testimonial_img">
+                            <div>
+                                    <h3 class="testimonial_name">Debo Enginnering</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "fitsum is a good graphics designer. I am very satisfied with his work and would recommend him for any graphic design project. He is always very fast, efficient and delivers a quality product. I will be using him again for all my future graphic design needs."
+                    </p>
+
+                </div>
+
+
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            /<img src="static/Portfolio-14.jpg" alt="" class="testimonial_img">
+                            <div>
+                                    <h3 class="testimonial_name">ሁለንተናዊ</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "fitsum is a good graphics designer. I am very satisfied with his work and would recommend him for any graphic design project. He is always very fast, efficient and delivers a quality product. I will be using him again for all my future graphic design needs."
+                    </p>
+
+                </div>
+
+
+                <div class="testimonial_content swiper-slide">
+                    <div class="testimonial_data">
+                        <div class="testimonial_header">
+                            /<img src="static/Portfolio-17.jpg" alt="" class="testimonial_img">
+                            <div>
+                                    <h3 class="testimonial_name">ብርቱ ተስፍ</h3>
+                                <span class="testimonial_client">Client</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                            <i class="uil uil-star testimonial_icon-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial_description">
+                        "fitsum is a good graphics designer. I am very satisfied with his work and would recommend him for any graphic design project. He is always very fast, efficient and delivers a quality product. I will be using him again for all my future graphic design needs."
+                    </p>
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="swiper-pagination swiper-pagination-test"></div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle"></span>
+        <div class="contact_container container grid">
+            <div>
+                <diV class="contact_information ">
+                    <i class="uil uil-phone contact_icon"></i>
+                    <div>
+                        <h3 class="contact_title">Call Me</h3>
+                        <span class="contact_subtitle">+251 913225583</span>
+                    </div>
+                </div>
+                <br>
+
+                <diV class="contact_information ">
+                    <i class="uil uil-envelope contact_icon"></i>
+                    <div>
+                        <h3 class="contact_title">Email</h3>
+                        <span class="contact_subtitle">tessfitsum0@gmail.com</span>
+                    </div>
+                </div>
+                <br>
+                <diV class="contact_information ">
+                    <i class="uil uil-map-marker contact_icon"></i>
+                    <div>
+                        <h3 class="contact_title">Location</h3>
+                        <span class="contact_subtitle">Hosaena Ethiopia</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <form method="post" name="send_message" class="contact_form grid" id="send_message">
+                <div class="contact_inputs grid">
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Name</label>
+                        <input type="text" name="Name" id="Name" class="contact-input"
+                               placeholder="Name">
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Email</label>
+                        <input type="text" name="Email" id="Email" class="contact-input"
+                               placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="contact_content">
+                    <label for="" class="contact_label">Subject</label>
+                    <input type="text" name="Subject" id="Subject" class="contact-input"
+                           placeholder="Subject">
+                </div>
+
+                <div class="contact_content">
+                    <label class="contact_label">Message</label>
+                    <textarea class="contact-input" cols="0" rows="7" id="Message " name="Message"
+                              placeholder="Message"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="button button--flex">Send Message
+                        <i class="uil uil-message"></i>
+                    </button>
+                    <div>
+
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+    <div class="footer_bg">
+        <div class="footer_container container grid">
+            <div>
+                <h1 class="footer_title">Fitsum</h1>
+                <span class="footer_subtitle">Graphics Designer</span>
+            </div>
+            <ul class="footer_links">
+                <li>
+                    <a href="#services" class="footer_link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="footer_link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer_link">Contactme</a>
+                </li>
+            </ul>
+            <div class="footer_socials">
+                <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                    <i class="uil uil-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer_social">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://twitter.com/login" target="_blank" class="footer_social">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+            </div>
+        </div>
+        <p class="footer_copy">&#169; Amanuel.All right reserved</p>
+    </div>
+</footer>
+
+<!--==================== SCROLL TOP ====================-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup_icon"></i>
+</a>
+
+<!--==================== SWIPER JS ====================-->
+<script src="static/swiper-bundle.min.js"></script>
+
+<!--==================== MAIN JS ====================-->
+<script src="static/main.js"></script>
+</body>
+</html>
+
